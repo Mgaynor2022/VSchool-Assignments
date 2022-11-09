@@ -1,0 +1,66 @@
+@media screen and (max-width:767px){
+
+    * {
+        box-sizing: border-box;
+      }
+      h1{
+        display: flex;
+        justify-content: center;
+      }
+    form{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+    }
+    input{
+        position: relative;
+        border: 2px solid black;
+        bottom: 20px;
+    }
+    #totalPrice{
+        position: relative;
+        margin: 30px;
+        padding: 12px;
+        font-size: 15px;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+       }
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+input{
+    position: relative;
+    border: 2px solid black;
+    bottom: 20px;
+}
+#totalPrice{
+    position: relative;
+    margin: 30px;
+    padding: 12px;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    gap:20;
+    justify-content: space-between;
+   }
+

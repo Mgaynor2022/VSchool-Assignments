@@ -11,14 +11,22 @@ let remainingPlayerHp = playerHp - playerDamage;
 
 const enemyDamage2 = Math.floor((Math.random()* 35) + 20)
 let remainingEnemyHp2 = remainingEnemyHp - enemyDamage2;
-
-
-
-
-
 const userName = readline.question("Hello !! Whats your name?");
 
 console.log( `Hi ${userName} I hope your sitting down, this game will knock you of your feet !!`);
+
+function User (playerHp, playerDamage,playerName, inventory){
+    this.playerHp=100;
+    this.playerDamage= playerDamage;
+    this.playerName = userName;
+    this.inventory=[];
+}
+
+ const michael = new User(100,playerDamage,userName)
+console.log(michael)
+// const userName = readline.question("Hello !! Whats your name?");
+
+// console.log( `Hi ${userName} I hope your sitting down, this game will knock you of your feet !!`);
 
     let alive = true;
 
@@ -113,7 +121,7 @@ Sorry you are dead This is the end my friend see you in Valhalla !!!`)
 
 } else if(remainingEnemyHp <= 20){
     console.log(
-`${userName} that last attack killed the enemy. You did it you Won !!! `)
+`${userName} that last attack killed the enemy, it makes them faint and stop breathing. You did it you Won !!! `)
 youWin()
 
 if (remainingEnemyHp > 20){
@@ -121,9 +129,11 @@ if (remainingEnemyHp > 20){
     attack2()
     }
 } 
+
  return
     }
 }
+
 
 // Writing a function if player runs the they have 50% of escaping 
 function run (){

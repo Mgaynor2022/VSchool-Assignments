@@ -1,0 +1,18 @@
+#add{
+    color: brown;
+}
+
+#subtract{
+    color:blueviolet;
+}
+
+#multiply{
+    color:blue;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box; 
+   }
+
+img{
+    height: 300px;
+    width:300px;
+}
+
+#container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661963783275-dff88a0296f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRvJTIwZG8lMjBsaXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    font-weight: bolder;
+    
+}
+
+
+.toDoList{
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+
+}
+
+#box1{
+    position: relative;
+    left:50px;
+    margin:10px;
+}
+
+#box2{
+    position: relative;
+    left:50px;
+    margin: 10px;
+}
+
+#completeLabel{
+    position: relative;
+    bottom: 60px;
+}
+
+#incompleteLabel{
+    position: relative;
+    bottom: 40px;
+}
+
+.submit{
+    position: relative;
+    width: 100px;
+    bottom: 25px;
+    left:5px;
+}
+.submit:hover{
+    background-color: tan;
+}
+#create{ 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border: 2px black solid;
+     
+}
+button{
+    width: 120px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: tan;
+}
+
+.price {
+   position: relative;
+   bottom: 420px;
+   right: 35px;
+}

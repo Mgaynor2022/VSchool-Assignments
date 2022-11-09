@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form name="travelForm">
+        <h1>Travel Form</h1>
+       First Name: <input id="fName" name="firstName" type="text" placeholder="First Name">
+       Last Name: <input id="lName" name="lastName" type="text" placeholder="Last Name">
+       Age: <input id="age" name="age" type="number" placeholder="Age">
+        Male: <input id="gender" name="gender" type="radio" value="Male">
+        Female: <input id="gender" name="gender" type="radio" value="Female">
+       
+      Location: <select name="city">
+            <option value="New York">New York</option>
+            <option value="Houston">Houston</option>
+            <option value="New Mexico">New Mexico</option>
+        </select>
+        
+       <h3> Do have any dietary restrictions ?</h3>
+        Vegetarian: <input name="diet" value="Vegetarian" type="checkbox">
+        Kosher: <input name="diet" value="Kosher" type="checkbox">
+        Lactose Free: <input name="diet" value="Lactose Free" type="checkbox">
+        <button>Submit</button>
+    </form>
+    
+</body>
+<script src="app.js"></script>
+</html>

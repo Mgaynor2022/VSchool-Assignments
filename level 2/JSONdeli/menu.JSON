@@ -1,0 +1,83 @@
+{
+    "appetizers": [
+        {
+            "name": "Hot Wings",
+            "ingredients":["chicken","cayenne pepper","chicken bread"],
+            "description":"deep-fried un-breaded chicken wings or drumsticks coated with a vinegar-and-cayenne-pepper hot sauce mixed with butter"
+        },
+    {
+            "name": "Cheese Bread",
+            "ingredients":["White Bread","Pepper jack cheese","American Cheese"],
+            "description":"t's a semi-soft cheese traditionally made with reindeer milk, but several American cheesemakers have adapted the Finnish original to create a pasteurized cow's milk version"
+        }
+
+    ],
+        "Cold Sandwiches":[
+            {
+                "name":"The Philly",
+                 "ingredients":["Steak","bread","Pepper Jack Cheese"],
+                "description": "It is a sandwich made of thinly sliced beef — usually frozen chip steak — cooked on a griddle and served on a sliced roll with cheese and either wit or witout onions."
+            },
+        {
+                 "name":"The Outlaw",
+                 "ingredients":["Baja Chipotle sauce", "Artisan Italian bread","Steak"],
+                "description":"The Outlaw: Juicy steak topped with a double helping of Pepper Jack cheese, green peppers, red onions, and Baja Chipotle sauce"
+            }
+        ],
+        "hot sandwiches":[
+            {
+                "name":"meatball",
+                "ingredients":["meatballs", "marinara sauce","pepper jack cheese"],
+                 "description":"The sandwich primarily consists of meatballs, a tomato sauce or marinara sauce, and bread, such as Italian bread, baguette and bread rolls."
+            },
+        {
+                "name":"chicken sandwich",
+                "ingredients":["boneless skinless chicken breast", "bread","lettuce"],
+                "description":"A boneless breast of chicken seasoned to perfection, freshly breaded, pressure cooked in 100% refined peanut oil and served on a toasted."
+            
+        }
+
+        ],
+        "desserts":[
+            {
+                "name":"apple pie",
+                "ingredients":["pie crust","apples","flour","sugar"],
+                 "description":" double-crusted, with pastry both above and below the filling; the upper crust may be solid or latticed (woven of crosswise strips)."
+
+            },
+        {
+                "name":"pecan pie",
+                "ingredients":["pecan","pie crust","butter","egg","sugar"],
+                "description":"a mix of sweet, buttery crunch with a savory nutty aftertaste "
+
+            }
+        ],
+        "drinks":[
+            {
+                "name":"margarita",
+                "ingredients":["lime juice", "tequila","salt"],
+                 "description":" cocktail made of tequila, lime or lemon juice, and an orange-flavored liqueur, usually served in a salt-rimmed glass."
+
+            },
+            {
+                "name":"mojito",
+                "ingredients":["rum","lime juice","soda water","mint"],
+                 "description":"a cocktail made with rum, sugar, lime juice, soda water, and mint."
+            }
+        ]
+    }
+
+
+
+
+
+
+
+    
+    
+   
+
+
+    
+
+    
