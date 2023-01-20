@@ -1,0 +1,25 @@
+.dark-theme  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: black;
+    color:white
+}
+.light-theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: grey;
+    color: white;
+}
+.navbar {
+    display:flex;
+    justify-content: row;
+    justify-content: space-evenly;
+}
+.footer {
+    display: flex;
+    top: 500px;
+}
