@@ -1,0 +1,39 @@
+/* need to change the fonts and add the images.*/
+
+
+
+
+* {
+    box-sizing: border-box; 
+   }
+.header{
+    display: grid;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    height:150px;
+
+}
+ div > h2 {
+    align-self: center;
+    text-align: center;
+ }
+.location{
+    display:flex; 
+    border-bottom: solid #F5F5F5
+}
+.places {
+    align-self: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+
+.picture {
+    height: 400px;
+    width: 300px;
+    padding: 50px;
+    border-radius: 65px;
+}
+
+
+

@@ -1,0 +1,33 @@
+/* still need to style it*/
+
+* {
+    box-sizing: border-box;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: inherit;
+}
+    
+
+nav {
+    display:flex;
+    justify-content: space-evenly;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin:100px;
+}
+
+
+a {
+    color: #212529;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0085A1;
+  }

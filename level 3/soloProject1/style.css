@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    background-color: #23252C;
+   }
+   h1, h4 {
+    color: #F5F5F5;
+   }
+   p {
+    color:#DCDCDC
+   }
+   .container {
+    
+   }
+
+   .img {
+    position: relative;
+    left: 300px;
+    height: 300px;
+    width: 400px;
+    background-image: url(/Users/mikeg/react.js/src/IMG_1369.jpeg);
+    background-size: 100%;
+    
+   }
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+    
+}
+.contact h2 {
+    color: #F3BF99;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 40px;
+}
+button:nth-child(2) {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+button:nth-child(1) {
+    color: #1E1F26;
+    background-color: white;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 40px;
+}
+
+p:nth-child(2) {
+    padding-bottom: 40px;
+}
+
